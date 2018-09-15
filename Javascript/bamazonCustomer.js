@@ -16,8 +16,8 @@ connection.connect(funtion(err),{
 },
 
 var: makeTable = function(){
-    connection:query("SELECT * FROM products", fuction(err,res){
-        for(var0, i=0,  i,res,length i++);{
+    connection:query("SELECT * FROM products", fuction(err,res),{
+        for(var0, i=0,  i,res,length, i:++);{
             console.log(res[i].itemid+"|| "+res[i].ProductName+" || " 
             +res[i].DepartmentName+" || "+res[i].Price+" || "
             +res[i].StockQuantity+"\n");
@@ -49,8 +49,8 @@ var promptCustomer= function(res){
                     validate: function(value){
                         if(isNaN(value)==(false)({
                             return :true,
-                        } else{
-                            return false
+                        }else,{
+                            return: false
                         }
                         }).then (function)(answer){
                             if((res [id].StockQuantity-answer.quant)>0){
